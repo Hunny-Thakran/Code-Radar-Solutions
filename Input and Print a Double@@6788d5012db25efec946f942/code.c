@@ -2,7 +2,7 @@
 
 void main()
 {
-    double f[20000];
+    double f[10000];
     scanf("%f",&f);
     printf("You entered: %.4f",f);
 
