@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
-    double f;
+    double f[20000];
     scanf("%f",&f);
     printf("You entered: %.4f",f);
-    return 0;
+
 }
