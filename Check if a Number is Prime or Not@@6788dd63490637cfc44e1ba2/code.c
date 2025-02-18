@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,isprime=1; 
+    int a,isprime=1,i; 
     scanf("%d",&a);
     for(i=2;i*i<=a;i++)
     {
