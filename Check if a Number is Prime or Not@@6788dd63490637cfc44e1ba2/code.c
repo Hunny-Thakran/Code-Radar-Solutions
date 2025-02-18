@@ -1,5 +1,5 @@
 // Your code here...
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     int a,isprime=1,i; 
@@ -9,7 +9,7 @@ int main()
         if(a%i==0)
         {
             printf("Not Prime");
-            isprime=0
+            isprime=0;
             break;
         }
     }
