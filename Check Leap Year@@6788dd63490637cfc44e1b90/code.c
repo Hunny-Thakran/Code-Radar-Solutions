@@ -10,6 +10,10 @@ int main()
         {
             printf("Leap Year");
         }
+        else
+        {
+            printnf("Not a Leap Year");
+        }
         
     }
     else
