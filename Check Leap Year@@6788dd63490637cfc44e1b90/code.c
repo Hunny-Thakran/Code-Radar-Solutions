@@ -12,7 +12,7 @@ int main()
         }
         else
         {
-            printnf("Not a Leap Year");
+            printf("Not a Leap Year");
         }
         
     }
