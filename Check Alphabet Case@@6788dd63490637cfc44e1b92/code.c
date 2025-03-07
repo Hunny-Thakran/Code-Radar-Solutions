@@ -6,11 +6,11 @@ int main()
     scanf("%c",&a);
     if(65<=a>=90)
     {
-        printf("Lowercase");
+        printf("Uppercase");
     }
     else
     {
-        printf("Uppercase");
+        printf("Lowercase");
     }
     return 0;
 }
