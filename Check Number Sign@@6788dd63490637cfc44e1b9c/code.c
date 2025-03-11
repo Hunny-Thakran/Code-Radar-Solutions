@@ -14,7 +14,7 @@ int main()
     }
     else if(a==0)
     {
-        printf("Zero")
+        printf("Zero");
     }
     
 }
