@@ -10,7 +10,7 @@ int main()
     }
     else if('a'>a<='z')
     {
-        printf("Consonant")
+        printf("Consonant");
     }
     else if(1<=a>=9)
     {
