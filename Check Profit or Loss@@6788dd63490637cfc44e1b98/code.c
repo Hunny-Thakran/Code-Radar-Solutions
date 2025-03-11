@@ -8,6 +8,10 @@ int main()
     {
         printf("Profit");
     }
+    else if(a==b)
+    {
+        printf("No Progit No Loss");
+    }
     else
     {
         printf("Loss");
