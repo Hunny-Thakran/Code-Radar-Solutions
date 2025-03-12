@@ -1,5 +1,5 @@
 // Your code here...
-#include<sdtio.h>
+#include<stdio.h>
 int main()
 {
     int a,b;
@@ -20,5 +20,5 @@ int main()
         printf("%d",a/b);
         
     }
-    
+
 }
