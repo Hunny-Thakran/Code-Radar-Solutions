@@ -12,7 +12,7 @@ int main()
     {
         printf("Go");
     }
-    else if(C=='Y')
+    else if(c=='Y')
     {
         printf("Slow Down");
     }
