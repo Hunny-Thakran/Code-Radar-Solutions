@@ -8,7 +8,7 @@ int main()
     {
         printf("Stop");
     }
-    else if(c=="G")
+    else if(c=='G')
     {
         printf("Go");
     }
