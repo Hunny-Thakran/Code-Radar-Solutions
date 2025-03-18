@@ -20,5 +20,5 @@ int main() {
     }
     printf("%d %d", a1, a2);
     
-    return 0;
+    return 0;
 }
