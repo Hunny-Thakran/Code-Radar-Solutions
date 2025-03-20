@@ -16,7 +16,7 @@ int main()
         {
             e=e+1;
         }
-        else
+        else if(a[i]%2!=0)
         {
             o=o+1;
         }
