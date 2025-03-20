@@ -21,5 +21,6 @@ int main()
             o=o+1;
         }
     }
+    printf("%d %d",e,o);
     return 0;
 }
