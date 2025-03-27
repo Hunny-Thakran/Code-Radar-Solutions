@@ -9,8 +9,8 @@ int main() {
         {
             printf(" ");
         }
-        j=2*i-1
-        while(j>0);
+        j=2*i-1;
+        while(j>0)
         {
             printf("*");
             j--;
