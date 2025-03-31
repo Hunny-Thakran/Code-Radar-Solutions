@@ -1,26 +1,26 @@
 // Your code here...
 #include<stdio.h>
-int main() {
-    int arr[] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4}; // Example array
-    int n = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
-    int frequency[n]; // Array to store frequencies
-
-    // Initialize frequency array with 0
-    for (int i = 0; i < n; i++) {
-        frequency[i] = 0;
+int main() 
+{
+    int n,i,j,c;
+    scanf("%d",&a);
+    int ar[n];
+    for(i=0;i<a;i++)
+    {
+        scanf("%d",&ar[i]);
     }
-
-    // Count the frequency of each element
-    for (int i = 0; i < n; i++) {
-        frequency[arr[i]]++; // Increment the frequency of the element
-    }
-
-    // Print the frequency of each element
-    for (int i = 0; i < n; i++) {
-        if (frequency[i] > 0) { // Check if the frequency is greater than 0
-            printf("%d %d\n", i, frequency[i]);
+    for(i=0;i<a;i++)
+    {
+        c=1;
+        for(j=i+1;j<a;j++)
+        {
+            if(ar[i]==ar[j])
+            {
+                c++;
+                ar[j]=-1;
+            }
         }
+        printf("%d %d",ar[i],c);
+        printf("\n");
     }
-
-    return 0;
 }
