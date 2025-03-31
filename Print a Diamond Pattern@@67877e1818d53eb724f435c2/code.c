@@ -7,7 +7,7 @@ int main()
     k=a;
     for(i=1;i<=a;i++)
     {
-        for(sp=1,sp<k;sp++)
+        for(sp=1;sp<k;sp++)
         {
             printf("*");
             k=k-1;
