@@ -17,6 +17,6 @@ int main()
             printf("*");
         }
         printf("\n");
-        p=p-1
+        p=p-1;
     }
 }
