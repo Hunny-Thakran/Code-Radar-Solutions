@@ -11,6 +11,7 @@ int main()
     }
     scanf("%d",&k);
     k=-k;
+    printf("%d",k);
     for(i=k;i<=a+k;i++)
     {
         printf("%d",ar[i]);
