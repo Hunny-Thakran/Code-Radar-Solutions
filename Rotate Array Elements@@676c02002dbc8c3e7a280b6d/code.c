@@ -10,5 +10,10 @@ int main()
         scanf("%d",&ar[i]);
     }
     scanf("%d",&k);
+    k=-k;
+    for(i=k;i<=a+k;i++)
+    {
+        printf("%d",ar[i]);
+    }
     
 }
