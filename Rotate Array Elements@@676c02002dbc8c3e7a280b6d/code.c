@@ -14,6 +14,7 @@ int main()
     for(i=k;i<=a+k;i++)
     {
         printf("%d",ar[i]);
+        printf("\n");
     }
     
 }
