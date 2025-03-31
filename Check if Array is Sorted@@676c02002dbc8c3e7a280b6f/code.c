@@ -20,12 +20,7 @@ int main()
                 break;
             }
         }
-        if(ar[i]>ar[j])
-        {
-            k=0;
-            break;
-            
-        }
+   
     }
     if(k==1)
     {
