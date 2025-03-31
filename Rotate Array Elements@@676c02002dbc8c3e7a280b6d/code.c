@@ -10,8 +10,13 @@ int main()
         scanf("%d",&ar[i]);
     }
     scanf("%d",&k);
-    k=-k;
-    for(j=k;j<=a+k;j++)
+    k=k-1;
+    for(j=k;j<a;j++)
+    {
+        printf("%d",ar[j]);
+        printf("\n");
+    }
+    for(j=1,j<k;j++)
     {
         printf("%d",ar[j]);
         printf("\n");
