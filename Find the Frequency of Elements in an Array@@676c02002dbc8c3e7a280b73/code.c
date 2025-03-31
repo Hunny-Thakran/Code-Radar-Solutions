@@ -20,7 +20,14 @@ int main()
                 ar[j]=-1;
             }
         }
-        printf("%d %d",ar[i],c);
+        if(ar[i]==-1)
+        {
+            continue;
+        }
+        else{
+            printf("%d %d",ar[i],c);
+        }
+        
         printf("\n");
     }
 }
