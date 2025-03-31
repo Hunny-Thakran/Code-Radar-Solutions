@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,i,j;
+    int a,i,j,one=1,zero=0;
     scanf("%d",&a);
     for(i=1;i<=a;i++)
     {
@@ -12,11 +12,11 @@ int main()
                 {
                     if(j%2!=0)
                     {
-                        printf(1," ");
+                        printf("%d ",one);
                     }
                     else
                     {
-                        printf(0," ");
+                        printf("%d ",zero);
                     }
                 }
                 
@@ -27,11 +27,11 @@ int main()
                 {
                     if(j%2==0)
                     {
-                        printf(1," ");
+                        printf("%d ",one);
                     }
                     else
                     {
-                        printf(0," ");
+                        printf("%d ",zero);
                     }
                     
                 }
