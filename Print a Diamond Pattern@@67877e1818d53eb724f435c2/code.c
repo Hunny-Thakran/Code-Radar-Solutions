@@ -9,7 +9,7 @@ int main()
     {
         for(sp=1;sp<k;sp++)
         {
-            printf("_");
+            printf(" ");
         
         }
         star=2*i-1;
@@ -20,5 +20,17 @@ int main()
         printf("\n");
         k=k-1;
     }
-    printf("\n");
+    k=1;
+    for(i=a-1;i>0;i--)
+    {
+        for(sp=1,sp<=k;sp++)
+        {
+            printf(" ");
+        }
+        for(j=i,j>0;j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
 }
