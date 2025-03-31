@@ -22,8 +22,9 @@ int main()
         }
         if(ar[i]>ar[j])
         {
-            break;
             k=0;
+            break;
+            
         }
     }
     if(k==1)
