@@ -1,0 +1,33 @@
+// Your code here...
+#include<stdio.h>
+int main()
+{
+    int a,i,j,k=1;
+    scanf("%d",&a);
+    int ar[a];
+    for(i=0;i<a;i++)
+    {
+        scanf("%d",&ar[i]);
+    }
+    for(i=0;i<a;i++)
+    {
+        for(j=i+1;j<a;j++)
+        {
+            if(ar[i]>ar[j])
+            {
+                printf("Not Sorted");
+                break;
+                k=0;
+            }
+        }
+        if(ar[i]>ar[j])
+        {
+            break;
+            k=0;
+        }
+    }
+    if(k)
+    {
+        printf("Sorted");
+    }
+}
