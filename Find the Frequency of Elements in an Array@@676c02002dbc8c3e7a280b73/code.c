@@ -12,7 +12,7 @@ int main()
     for(i=0;i<n;i++)
     {
         c=1;
-        for(j=i+1;j<a;j++)
+        for(j=i+1;j<n;j++)
         {
             if(ar[i]==ar[j])
             {
