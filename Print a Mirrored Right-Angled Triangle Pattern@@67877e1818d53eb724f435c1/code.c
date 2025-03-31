@@ -11,12 +11,12 @@ int main()
         {
             printf(" ");
         }
-        k=2*i-1;
-        for(j=k;j>0;j--)
+        
+        for(j=1;j<=i;j++)
         {
             printf("*");
         }
         printf("\n");
-        p=p-2;
+        
     }
 }
