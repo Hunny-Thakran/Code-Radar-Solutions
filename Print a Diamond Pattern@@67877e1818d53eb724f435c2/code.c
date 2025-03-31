@@ -12,7 +12,7 @@ int main()
             printf("*");
         
         }
-        printf("\n")
+        printf("\n");
         k=k-1;
     }
     printf("\n");
