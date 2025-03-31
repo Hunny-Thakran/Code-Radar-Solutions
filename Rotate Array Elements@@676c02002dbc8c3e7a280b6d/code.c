@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,k,i;
+    int a,k,i,j;
     scanf("%d",&a);
     int ar[a];
     for(i=0;i<a;i++)
@@ -11,9 +11,9 @@ int main()
     }
     scanf("%d",&k);
     k=-k;
-    for(i=k;i<=a+k;i++)
+    for(j=k;j<=a+k;j++)
     {
-        printf("%d",ar[i]);
+        printf("%d",ar[j]);
         printf("\n");
     }
     
