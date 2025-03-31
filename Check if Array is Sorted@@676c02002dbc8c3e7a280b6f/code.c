@@ -28,7 +28,7 @@ int main()
             
         }
     }
-    if(k)
+    if(k==1)
     {
         printf("Sorted");
     }
