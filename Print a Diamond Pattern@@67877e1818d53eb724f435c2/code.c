@@ -23,11 +23,11 @@ int main()
     k=1;
     for(i=a-1;i>0;i--)
     {
-        for(sp=1,sp<=k;sp++)
+        for(sp=1;sp<=k;sp++)
         {
             printf(" ");
         }
-        for(j=i,j>0;j--)
+        for(j=i;j>0;j--)
         {
             printf("*");
         }
