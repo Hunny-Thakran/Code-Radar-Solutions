@@ -16,7 +16,7 @@ int main()
         printf("%d",ar[j]);
         printf("\n");
     }
-    for(j=1;j<k;j++)
+    for(j=1;j<=k;j++)
     {
         printf("%d",ar[j]);
         printf("\n");
