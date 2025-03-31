@@ -31,9 +31,5 @@ int main()
     {
         printf("Sorted");
     }
-    else
-    {
-        printf("Sorted");
-    }
 
 }
