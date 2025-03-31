@@ -16,10 +16,14 @@ int main()
             if(ar[i]>ar[j])
             {
                 printf("Not Sorted");
-                k=0;
                 break;
                 
             }
+        }
+        if(ar[i]>ar[j])
+        {
+            break;
+            k=0;
         }
     }
     if(k==1)
