@@ -13,5 +13,5 @@ int main()
             k=k-1;
         }
     }
-    printf("\n")
+    printf("\n");
 }
