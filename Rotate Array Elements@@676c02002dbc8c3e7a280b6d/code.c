@@ -10,7 +10,7 @@ int main()
         scanf("%d",&ar[i]);
     }
     scanf("%d",&k);
-    k=k-1;
+    k=a-k;
     for(j=k;j<a;j++)
     {
         printf("%d",ar[j]);
