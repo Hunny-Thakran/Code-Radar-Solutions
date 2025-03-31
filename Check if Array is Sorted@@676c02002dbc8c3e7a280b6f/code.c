@@ -11,7 +11,7 @@ int main()
     }
     for(i=0;i<a;i++)
     {
-        for(j=i+1;j<i+1;j++)
+        for(j=i+1;j<=i+1;j++)
         {
             if(ar[i]>ar[j])
             {
