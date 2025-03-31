@@ -27,6 +27,7 @@ int main()
         {
             printf(" ");
         }
+        k=k+1;
         star=2*i-1;
         for(j=1;j<=star;j++)
         {
