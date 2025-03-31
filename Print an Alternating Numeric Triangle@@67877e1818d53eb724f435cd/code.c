@@ -19,6 +19,7 @@ int main()
                         printf("0");
                     }
                 }
+                
             }
             else
             {
@@ -32,8 +33,10 @@ int main()
                     {
                         printf("0");
                     }
+                    
                 }
             }
+            printf("\n");
            
 
         }
