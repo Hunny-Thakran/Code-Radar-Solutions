@@ -16,6 +16,7 @@ int main()
             if(ar[i]>ar[j])
             {
                 printf("Not Sorted");
+                k=0;
                 break;
                 
             }
