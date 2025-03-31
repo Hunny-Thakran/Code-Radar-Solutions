@@ -10,8 +10,9 @@ int main()
         for(sp=1;sp<k;sp++)
         {
             printf("*");
-            k=k-1;
+        
         }
+        k=k-1;
     }
     printf("\n");
 }
