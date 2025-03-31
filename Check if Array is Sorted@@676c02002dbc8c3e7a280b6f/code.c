@@ -20,6 +20,10 @@ int main()
                 break;
             }
         }
+        if(k==0)
+        {
+            break;
+        }
    
     }
     if(k==1)
