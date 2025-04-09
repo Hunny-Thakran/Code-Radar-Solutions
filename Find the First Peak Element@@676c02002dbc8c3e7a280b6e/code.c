@@ -11,6 +11,7 @@ int main()
     }
     int j=0;
     int k=2;
+    int m=-1;
     for(i=1;i<n;i++)
     {
         if(ar[j]<ar[i] && ar[i]>ar[k])
@@ -23,6 +24,10 @@ int main()
         if(i==n-1)
         {
             printf("%d",ar[i]);
+        }
+        if(ar[i]==ar[j])
+        {
+            printf("%d",m);
         }
     }
     return 0;
