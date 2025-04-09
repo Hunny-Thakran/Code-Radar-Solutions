@@ -20,7 +20,7 @@ int main()
         }
         j++;
         k++;
-        else
+        if(i==n)
         {
             printf("%d",ar[i]);
         }
