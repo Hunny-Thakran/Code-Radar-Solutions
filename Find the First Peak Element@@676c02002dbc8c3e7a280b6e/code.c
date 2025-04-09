@@ -11,7 +11,7 @@ int main()
     }
     int j=0;
     int k=2;
-    for(i=1;i<n;i++)
+    for(i=1;i<n-1;i++)
     {
         if(ar[j]<ar[i]>ar[k])
         {
