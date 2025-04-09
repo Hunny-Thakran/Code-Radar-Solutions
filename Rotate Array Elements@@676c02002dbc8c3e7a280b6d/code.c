@@ -2,24 +2,23 @@
 #include<stdio.h>
 int main()
 {
-    int a,k,i,j;
-    scanf("%d",&a);
-    int ar[a];
-    for(i=0;i<a;i++)
-    {
-        scanf("%d",&ar[i]);
-    }
-    scanf("%d",&k);
-    k=a-k;
-    for(j=k;j<a;j++)
-    {
-        printf("%d",ar[j]);
-        printf("\n");
-    }
-    for(j=0;j<k;j++)
-    {
-        printf("%d",ar[j]);
-        printf("\n");
-    }
+  int n,k,i;
+  scanf("%d",&a);
+  int ar[n];
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&ar[i]);
+  }
+  scanf("%d",&k);
+  int pos=n-k;
+  for(i=pos;i<n;i++)
+  {
+    printf("%d\n",ar[i]);
+  }
+  for(i=0;i<pos;i++)
+  {
+    printf("%d\n",ar[i]);
+  }
+  return 0;
     
 }
