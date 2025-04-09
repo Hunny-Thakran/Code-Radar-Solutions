@@ -19,8 +19,7 @@ int main()
             printf("%d",ar[i]);
             break;
         }
-        j++;
-        k++;
+        
         if(i==n-1)
         {
             if(ar[i]==ar[j])
@@ -32,6 +31,8 @@ int main()
                 printf("%d",ar[i]);
             }
         }
+        j++;
+        k++;
         
     }
     return 0;
