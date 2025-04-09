@@ -17,8 +17,9 @@ int main()
         {
             printf("%d",ar[i]);
             break;
-
         }
+        j++;
+        k++;
     }
     return 0;
 }
