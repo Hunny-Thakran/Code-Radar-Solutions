@@ -20,7 +20,7 @@ int main()
         }
         j++;
         k++;
-        if(i==n)
+        if(i==n-1)
         {
             printf("%d",ar[i]);
         }
