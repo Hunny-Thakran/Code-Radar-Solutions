@@ -13,7 +13,7 @@ int main()
     int k=2;
     for(i=1;i<n-1;i++)
     {
-        if(ar[j]<ar[i]>ar[k])
+        if(ar[j]<ar[i] && ar[i]>ar[k])
         {
             printf("%d",ar[i]);
             break;
