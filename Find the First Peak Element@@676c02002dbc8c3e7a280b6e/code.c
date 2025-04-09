@@ -23,12 +23,16 @@ int main()
         k++;
         if(i==n-1)
         {
-            printf("%d",ar[i]);
-        }
-        if(ar[i]==ar[j])
+            if(ar[i]==ar[j])
         {
             printf("%d",m);
         }
+            else
+            {
+                printf("%d",ar[i]);
+            }
+        }
+        
     }
     return 0;
 }
