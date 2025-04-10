@@ -24,7 +24,11 @@ int main()
     }
  
     int a=-1;
-    if(ar[n-2]==ar[n-1])
+    if(n-2<0)
+    {
+        printf("%d",a);
+    }
+    else if(ar[n-2]==ar[n-1])
     {
         printf("%d",a);
     }
