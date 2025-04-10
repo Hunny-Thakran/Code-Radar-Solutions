@@ -1,4 +1,3 @@
-// Your code here...
 #include<stdio.h>
 int main()
 {
@@ -9,10 +8,10 @@ int main()
     {
         scanf("%d",&ar[i]);
     }
-    int loop=n/2;
-    for(i=0;i<loop;i++)
+   
+    for(i=0;i<n;i++)
     {
-        for(j=1;j<n;j++)
+        for(j=1+i;j<n;j++)
         {
             if(ar[i]>ar[j])
         {
@@ -23,6 +22,7 @@ int main()
         }
         }
     }
+ 
     int a=-1;
     if(ar[n-2]==ar[n-1])
     {
