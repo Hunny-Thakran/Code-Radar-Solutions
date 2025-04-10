@@ -12,7 +12,9 @@ int main()
     int loop=n/2;
     for(i=0;i<loop;i++)
     {
-        for(j=1;j<n;j++)
+        if(ar[i]>0)
+        {
+            for(j=1;j<n;j++)
         {
             if(ar[i]>ar[j])
         {
@@ -22,6 +24,9 @@ int main()
             
         }
         }
+        }
+        
+        
     }
     int a=-1;
     if(ar[n-2]==ar[n-1])
