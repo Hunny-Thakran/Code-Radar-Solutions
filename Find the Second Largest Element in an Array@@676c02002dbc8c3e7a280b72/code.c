@@ -30,6 +30,6 @@ int main()
     }
     else
     {
-        printf("%d",ar[n-1]);
+        printf("%d",ar[n-2]);
     }
 }
